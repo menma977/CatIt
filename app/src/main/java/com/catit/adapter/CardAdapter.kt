@@ -7,8 +7,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.TextView
+import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.RecyclerView
-import com.catit.MainActivity
 import com.catit.R
 import com.catit.model.Card
 import com.catit.sql.SQLHandler
@@ -28,20 +28,29 @@ class CardAdapter(private val context: Context) : RecyclerView.Adapter<CardAdapt
   override fun onBindViewHolder(holder: Holder, position: Int) {
     holder.title.text = data[position].title
     holder.description.text = data[position].description
+    holder.date.text = data[position].date
     holder.deleteButton.setOnClickListener {
-      val id = data[position].id
-      val sql = SQLHandler(context)
-      sql.delete(id)
-      val intent = Intent(context, MainActivity::class.java)
-      context.startActivity(intent)
-      (context as HomeActivity).finish()
+      val builder = AlertDialog.Builder(context)
+      builder.setTitle("Delete")
+      builder.setTitle("Are you sure you want to delete this card?")
+      builder.setPositiveButton("Yes") { _, _ ->
+        val id = data[position].id
+        val sql = SQLHandler(context)
+        sql.delete(id)
+        data.removeAt(position)
+        notifyItemRemoved(position)
+        notifyItemRangeChanged(position, data.size)
+      }
+      builder.setNegativeButton("No") { _, _ ->
+        // Do nothing
+      }
+      builder.show()
     }
     holder.viewButton.setOnClickListener {
       val id = data[position].id
       val intent = Intent(context, ViewActivity::class.java)
       intent.putExtra("id", id)
       context.startActivity(intent)
-      (context as HomeActivity).finish()
     }
     holder.editButton.setOnClickListener {
       val id = data[position].id
@@ -49,7 +58,6 @@ class CardAdapter(private val context: Context) : RecyclerView.Adapter<CardAdapt
       intent.putExtra("id", id)
       intent.putExtra("isAdd", false)
       context.startActivity(intent)
-      (context as HomeActivity).finish()
     }
   }
 
@@ -71,6 +79,7 @@ class CardAdapter(private val context: Context) : RecyclerView.Adapter<CardAdapt
   class Holder(view: View) : RecyclerView.ViewHolder(view) {
     val title: TextView = view.findViewById(R.id.textViewTitle)
     val description: TextView = view.findViewById(R.id.textViewDesc)
+    val date: TextView = view.findViewById(R.id.textViewDate)
     val deleteButton: Button = view.findViewById(R.id.buttonDelete)
     val viewButton: Button = view.findViewById(R.id.buttonView)
     val editButton: Button = view.findViewById(R.id.buttonEdit)

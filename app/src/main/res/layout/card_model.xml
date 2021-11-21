@@ -15,16 +15,33 @@
       android:padding="10dp"
       android:orientation="vertical">
 
-    <TextView
-        android:text="@string/title"
+    <LinearLayout
+        android:id="@+id/titleContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textViewTitle"
-        android:layout_marginEnd="5dp"
-        android:textStyle="bold"
-        android:textSize="18sp"
-        android:textColor="@color/black"
-        android:layout_gravity="center"/>
+        android:orientation="horizontal">
+
+      <TextView
+          android:text="@string/title"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:id="@+id/textViewTitle"
+          android:layout_marginEnd="5dp"
+          android:textStyle="bold"
+          android:textSize="18sp"
+          android:textColor="@color/black"
+          android:layout_gravity="center"/>
+
+      <TextView
+          android:text="@string/date"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:id="@+id/textViewDate"
+          android:textColor="@color/black"
+          android:gravity="end"/>
+
+    </LinearLayout>
 
     <TextView
         android:text="@string/description"
@@ -34,7 +51,7 @@
         android:layout_marginTop="10dp"
         android:id="@+id/textViewDesc"
         android:textColor="@color/black"
-        android:layout_below="@id/textViewTitle"/>
+        android:layout_below="@id/titleContainer"/>
 
     <Button
         android:text="@string/delete"

@@ -1,12 +1,11 @@
 package com.catit.view
 
-import android.content.Intent
+import android.icu.text.SimpleDateFormat
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.catit.MainActivity
 import com.catit.R
 import com.catit.model.Todo
 import com.catit.sql.SQLHandler
@@ -42,11 +41,15 @@ class FormActivity : AppCompatActivity() {
       } else if (description.text.isEmpty()) {
         Toast.makeText(this, "Description is empty", Toast.LENGTH_SHORT).show()
       } else {
+        val dateFormat = SimpleDateFormat("yyyy/MM/dd HH:mm:ss")
+        val date = dateFormat.format(System.currentTimeMillis())
         if (isAdd) {
-          sqlHandler.create(Todo(0, title.text.toString(), description.text.toString()))
+          sqlHandler.create(Todo(0, title.text.toString(), description.text.toString(), date))
         } else {
-          sqlHandler.update(Todo(intent.getIntExtra("id", 0), title.text.toString(), description.text.toString()))
+          sqlHandler.update(Todo(intent.getIntExtra("id", 0), title.text.toString(), description.text.toString(), date))
         }
+
+        finish()
       }
     }
 
@@ -63,8 +66,6 @@ class FormActivity : AppCompatActivity() {
 
   override fun onBackPressed() {
     super.onBackPressed()
-    val intent = Intent(this, MainActivity::class.java)
-    startActivity(intent)
     finish()
   }
 }

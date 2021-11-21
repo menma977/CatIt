@@ -41,9 +41,13 @@ class HomeActivity : AppCompatActivity() {
       val intent = Intent(this, FormActivity::class.java)
       intent.putExtra("isAdd", true)
       startActivity(intent)
-      finish()
     }
 
+    loadData()
+  }
+
+  override fun onResume() {
+    super.onResume()
     loadData()
   }
 
@@ -51,7 +55,7 @@ class HomeActivity : AppCompatActivity() {
     val data = sqlHandler.read()
     cardAdapter.clear()
     for (i in data.indices) {
-      cardAdapter.addItem(Card(data[i].id, data[i].title, data[i].description))
+      cardAdapter.addItem(Card(data[i].id, data[i].title, data[i].description, data[i].date))
     }
   }
 }
