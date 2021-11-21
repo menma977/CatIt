@@ -1,0 +1,16 @@
+<resources>
+  <!-- Base application theme. -->
+  <style name="Theme.CatIt" parent="Theme.AppCompat.Light.DarkActionBar">
+    <!-- Primary brand color. -->
+    <item name="colorPrimary">@color/baby_blue</item>
+    <item name="colorPrimaryDark">@color/lilac</item>
+    <item name="colorAccent">@color/rose_quartz</item>
+    <!-- Customize your theme here. -->
+  </style>
+
+  <style name="Theme.CatIt.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="colorPrimary">@color/baby_blue</item>
+    <item name="colorPrimaryDark">@color/lilac</item>
+    <item name="colorAccent">@color/rose_quartz</item>
+  </style>
+</resources>

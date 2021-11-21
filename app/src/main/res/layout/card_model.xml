@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_margin="10dp"
+    app:cardElevation="20dp"
+    app:cardCornerRadius="20dp">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="10dp"
+      android:orientation="vertical">
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewTitle"
+        android:layout_marginEnd="5dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:text="@string/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textViewDesc"
+        android:textColor="@color/black"
+        android:layout_below="@id/textViewTitle"/>
+
+    <Button
+        android:text="@string/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/buttonDelete"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_edit"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@id/textViewDesc"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"/>
+
+    <Button
+        android:text="@string/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/buttonEdit"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_edit"
+        android:layout_marginEnd="5dp"
+        android:layout_below="@id/textViewDesc"
+        android:layout_toEndOf="@id/buttonDelete"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"/>
+
+    <Button
+        android:text="@string/view"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/buttonView"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_edit"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@id/buttonEdit"
+        android:layout_below="@id/textViewDesc"
+        android:layout_marginBottom="5dp"
+        android:elevation="10dp"/>
+
+  </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

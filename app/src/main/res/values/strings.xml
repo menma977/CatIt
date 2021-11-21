@@ -1,0 +1,14 @@
+<resources>
+  <string name="app_name">CatIt</string>
+  <string name="logo">Logo</string>
+  <string name="meganopus_link">meganopus.link</string>
+  <string name="add_button">add Button</string>
+  <string name="status">Status</string>
+  <string name="title">title</string>
+  <string name="description">Description</string>
+  <string name="edit_button">Edit Button</string>
+  <string name="view">View</string>
+  <string name="edit">Edit</string>
+  <string name="delete">Delete</string>
+  <string name="save">Save</string>
+</resources>
