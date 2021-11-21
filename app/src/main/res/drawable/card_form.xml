@@ -11,7 +11,7 @@
           android:startColor="@color/baby_blue"
           android:endColor="@color/lilac"
           android:type="linear"
-          android:angle="160"/>
+          android:angle="135"/>
       <corners
           android:radius="20dp"/>
     </shape>
