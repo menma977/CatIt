@@ -13,7 +13,6 @@ import com.catit.R
 import com.catit.model.Card
 import com.catit.sql.SQLHandler
 import com.catit.view.FormActivity
-import com.catit.view.HomeActivity
 import com.catit.view.ViewActivity
 
 class CardAdapter(private val context: Context) : RecyclerView.Adapter<CardAdapter.Holder>() {
