@@ -18,6 +18,9 @@
           <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/322ece180b6ee57985f7d7f4baaa24d0/jetified-kotlin-stdlib-1.6.0.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/9a1c09534ed580c66655b47b126e4cf8/jetified-annotations-13.0.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/fa1c71e221dffc8ef607a838bdf8d56b/jetified-kotlin-stdlib-common-1.6.0.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/236afea90bff6afe6a603cfa764764eb/material-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/c40532bd36787520a58b404e3632dd4b/appcompat-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/b1dc8c126164dc49e787661f0930a2c7/jetified-play-services-ads-20.5.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/66a019718b07eba7848bf1a9cae00536/jetified-play-services-ads-lite-20.5.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/82b5af094bd278d25e4c0a776b9246db/jetified-play-services-ads-base-20.5.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/e7b4a41e687ef4aaf2d0ec9684226e49/jetified-user-messaging-platform-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/b394c5330a8cb52a2445aaa8ead7ca54/jetified-play-services-ads-identifier-17.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/9e5b4280d989eaf1760e63ec4daa4d2f/jetified-play-services-appset-16.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/60d4866a25e851d1838c1750251143b3/jetified-play-services-base-17.6.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/7aa9594978440131c659fdd218913253/jetified-play-services-tasks-17.2.1-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/d8b1d3044a35a311a03a7e2b2d964756/jetified-play-services-measurement-sdk-api-18.0.3-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/3b8e6e84bfeed18c7cac16115c4552a6/jetified-play-services-measurement-base-18.0.3-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/68b5c4f852fbd4c6866190ee3ce65cc6/jetified-play-services-basement-17.6.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/829324a62ba6089bbfcb7c6366cf09bc/fragment-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/c1def66320a4035a9c33b28c2edad7a8/vectordrawable-animated-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/47294aaa5e9257ffdb7b20705b4b3b1d/recyclerview-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/2fb63e79a46079db59e92a095b98ba8e/browser-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/641ba3e7d349e1b0658744b1c8dfe970/legacy-support-core-ui-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/46b5fef06bea3733ec3f0fd91fe0d9b0/legacy-support-core-utils-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/a5eabf693714c3afefaefb4de05901c5/vectordrawable-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/07a7cf61a78ba262a170291d82e6bc6f/transition-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/1d72f19c00d1a1a8b6d60c61fa2229b8/loader-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/00ccfdcb8e955b5d22713d9274bd9e6b/viewpager-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/15738a718268833097519038a7f11e46/coordinatorlayout-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/6ab3ed0362fd7b426ca0de66ea3f95ad/drawerlayout-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/aee54f3a0c3df2621eed54ab5f56783c/slidingpanelayout-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/3581c8cad97cc7d94a105fffaf3153ef/customview-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/c65dd9fd45e0e89714881bb3f442b19b/swiperefreshlayout-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/2673d71119529844ac4b2532d87ccc78/asynclayoutinflater-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/01636d2b3ca20eea88b4ca6b2eb90163/core-1.6.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/17acb01da3cb90a8e80e719b6d5dcebb/versionedparcelable-1.1.1-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/9026bcdec8e87e856c5119e714a6b91b/cursoradapter-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/8ee6ff47d098490ee870a2734a811f82/cardview-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/3bdff1c1b8f17e21cfb1a36fcfde7aaf/lifecycle-runtime-2.1.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/ded1021815cddf30c5dbec88de4eabef/documentfile-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/e3da8efdb0deef07eba83309fc23af75/localbroadcastmanager-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/8ce2da4c158b815a636b54b0224e5029/print-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/8e87fbade1abcda7a5a1a104ac43548c/lifecycle-viewmodel-2.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/b9fccd4cbec00c97e703f3f4205aad39/interpolator-1.0.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/a0babe80365e6c5b355a369bfc6bb3d8/work-runtime-2.7.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/04d945dcb563e46f6486107a4f6e8361/lifecycle-livedata-2.1.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/0ee3c91151e52211d96fde40aa90dd13/lifecycle-livedata-core-2.1.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.1.0/c67e7807d9cd6c329b9d0218b2ec4e505dd340b7/lifecycle-common-2.1.0.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/15bbf9457976c302e62b58c610d83f50/core-runtime-2.1.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;C:/Users/MSI B450 Pro/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/2e1a83d2365daf105240da16ed1d8b18/jetified-annotation-experimental-1.1.0-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/28b1ac883da9712d6528a8d75335848e/constraintlayout-1.1.3-api.jar;C:/Users/MSI B450 Pro/.gradle/caches/modules-2/files-2.1/androidx.constraintlayout/constraintlayout-solver/1.1.3/54abe9ffb22cc9019b0b6fcc10f185cc4e67b34e/constraintlayout-solver-1.1.3.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/2c993ca28e30f85a37d1c31a0c434f4b/jetified-listenablefuture-1.0.jar;C:/Users/MSI B450 Pro/.gradle/caches/transforms-2/files-2.1/fadefa33f59b04220a5bbcc0b6f19c0e/jetified-startup-runtime-1.0.0-api.jar;C:/androidSDK/platforms/android-31/android.jar;C:/androidSDK/build-tools/30.0.3/core-lambda-stubs.jar" />
           <option name="noStdlib" value="true" />
           <option name="moduleName" value="app_debug" />
+          <option name="friendPaths">
+            <array />
+          </option>
           <option name="languageVersion" value="1.6" />
           <option name="apiVersion" value="1.6" />
           <option name="pluginOptions">
@@ -54,16 +57,71 @@
     <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debugUnitTest/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$/../../../app">
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/ap_generated_sources/debug/out" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTest/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/res" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/test/java" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../../app/build" />
     </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest/aidl" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest/assets" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/androidTest/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest/ml" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest/res" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest/resources" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest/rs" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTest/shaders" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug/aidl" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug/assets" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug/java" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug/ml" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug/res" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug/resources" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug/rs" />
+    <content url="file://$MODULE_DIR$/../../../app/src/androidTestDebug/shaders" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug/aidl" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug/assets" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug/java" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug/ml" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug/res" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug/resources" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug/rs" />
+    <content url="file://$MODULE_DIR$/../../../app/src/debug/shaders" />
+    <content url="file://$MODULE_DIR$/../../../app/src/main" />
+    <content url="file://$MODULE_DIR$/../../../app/src/main/aidl" />
+    <content url="file://$MODULE_DIR$/../../../app/src/main/assets" />
+    <content url="file://$MODULE_DIR$/../../../app/src/main/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/java" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/main/ml" />
+    <content url="file://$MODULE_DIR$/../../../app/src/main/res">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/main/res" type="java-resource" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/main/resources" />
+    <content url="file://$MODULE_DIR$/../../../app/src/main/rs" />
+    <content url="file://$MODULE_DIR$/../../../app/src/main/shaders" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test/aidl" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test/assets" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test/java">
+      <sourceFolder url="file://$MODULE_DIR$/../../../app/src/test/java" isTestSource="true" />
+    </content>
+    <content url="file://$MODULE_DIR$/../../../app/src/test/ml" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test/res" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test/resources" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test/rs" />
+    <content url="file://$MODULE_DIR$/../../../app/src/test/shaders" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug/aidl" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug/assets" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug/java" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug/ml" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug/res" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug/resources" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug/rs" />
+    <content url="file://$MODULE_DIR$/../../../app/src/testDebug/shaders" />
     <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
